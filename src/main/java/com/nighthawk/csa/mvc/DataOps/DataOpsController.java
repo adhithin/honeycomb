@@ -4,6 +4,7 @@ import com.nighthawk.csa.utility.ConsoleMethods;
 import com.nighthawk.csa.mvc.DataOps.genericDataModel.Alphabet;
 import com.nighthawk.csa.mvc.DataOps.genericDataModel.Animal;
 import com.nighthawk.csa.mvc.DataOps.genericDataModel.Cupcakes;
+import com.nighthawk.csa.mvc.DataOps.genericDataModel.Password;
 
 import com.nighthawk.csa.mvc.DataOps.LinkedLists.CircleQueue;
 import lombok.Getter;
@@ -17,22 +18,26 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Circle Queue Driver takes a list of Objects and puts them into a Queue
+ * Circle Queue Driver and Controller takes a list of Objects and puts them into a Queue
  * @author     John Mortensen
  *
  */
 @Getter
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class DataOpsController {
+    //persistent circle queue data
     private CircleQueue queue;	// circle queue object
     private int count; // number of objects in circle queue
-    //control variables for UI checkboxes and radios
-    private boolean animal;
-    private Animal.KeyType animalKey;
+
+    //persistent control variables for UI checkboxes and radios
+    private boolean animal;             //checkbox
+    private Animal.KeyType animalKey;   //enum radio button
     private boolean cake;
     private Cupcakes.KeyType cakeKey;
     private boolean alpha;
     private Alphabet.KeyType alphaKey;
+    private boolean pass;
+    private Password.KeyType passKey;
 
     /*
      * Circle queue constructor
@@ -43,6 +48,8 @@ public class DataOpsController {
         count = 0;
         queue = new CircleQueue();
     }
+
+    /****** Circle Queue Methods *******/
 
     /*
      * Add any array of objects to the queue
@@ -88,38 +95,48 @@ public class DataOpsController {
         return log;
     }
 
+    /****** Control Methods *******/
+
     /*
-     GET request,, parameters are passed within the URI
+     GET request... setup circle queue and pass variables via model.addAttribute
      */
     @GetMapping("/mvc/dataops")
     public String data(Model model) {
-
         //initialize database
         this.count = 0;
         this.queue = new CircleQueue();
-        //application specific inits
-        //title defaults
+
+        //set default order for data
+        Animal.setOrder(this.animalKey);
+        Cupcakes.setOrder(this.cakeKey);
+        Alphabet.setOrder(this.alphaKey);
+        Password.setOrder(this.passKey);
+
+        //radio button defaults
         this.animalKey = Animal.KeyType.title;
-        Animal.key = this.animalKey;
         this.cakeKey = Cupcakes.KeyType.title;
-        Cupcakes.key = this.cakeKey;
         this.alphaKey = Alphabet.KeyType.title;
-        Alphabet.key = this.alphaKey;
-        //control options
+        this.passKey = Password.KeyType.title;
+
+        //checkbox defaults
         this.animal = true;
         this.cake = true;
         this.alpha = true;
-        //load database
+        this.pass = true;
+
+        //load circle queue
         this.addCQueue(Animal.animalData());
         this.addCQueue(Cupcakes.cupCakeData());
         this.addCQueue(Alphabet.alphabetData());
-        //database is not sorted, queue order (FIFO) is default
-        model.addAttribute("ctl", this);
-        return "mvc/dataops"; //HTML render default condition
+        this.addCQueue(Password.PasswordData());
+
+        //circle queue is not sorted on initial load, circle queue order FIFO
+        model.addAttribute("this", this);
+        return "mvc/dataops"; //HTML render
     }
 
     /*
-     GET request,, parameters are passed within the URI
+     POST request... update circle queue based off of user check box and radio selections
      */
     @PostMapping("/mvc/dataops")
     public String dataFilter(
@@ -129,17 +146,19 @@ public class DataOpsController {
             @RequestParam(value = "cakeKey") Cupcakes.KeyType cakeKey,
             @RequestParam(value = "alpha", required = false) String alpha,
             @RequestParam(value = "alphaKey", required = false) Alphabet.KeyType alphaKey,
+            @RequestParam(value = "pass", required = false) String pass,
+            @RequestParam(value = "passKey", required = false) Password.KeyType passKey,
             Model model)
     {
-        //re-init database according to check boxes selected
+        //re-init circle queue according to check boxes selected
         count = 0;
         queue = new CircleQueue();
-        //for each category rebuild database, set presentation and database defaults
+        //for each category rebuild circle queue, set presentation and data defaults
         if (animal != null) {
             this.addCQueue(Animal.animalData());  //adding Animal database to queue
-            this.animal = true;             //persistent selection from check box selection
-            this.animalKey = animalKey;     //persistent enum update from radio button selection
-            Animal.key = this.animalKey;    //toString configure for sort order
+            this.animal = true;             //selection from check box
+            this.animalKey = animalKey;     //enum selection from radio button
+            Animal.setOrder(this.animalKey);
         } else {
             this.animal = false;
         }
@@ -147,7 +166,7 @@ public class DataOpsController {
             this.addCQueue(Cupcakes.cupCakeData());
             this.cake = true;
             this.cakeKey = cakeKey;
-            Cupcakes.key = this.cakeKey;
+            Cupcakes.setOrder(this.cakeKey);
         } else {
             this.cake = false;
         }
@@ -155,16 +174,27 @@ public class DataOpsController {
             this.addCQueue(Alphabet.alphabetData());
             this.alpha = true;
             this.alphaKey = alphaKey;
-            Alphabet.key = this.alphaKey;
+            Alphabet.setOrder(this.alphaKey);
         } else {
             this.alpha = false;
+
+        if (pass != null) {
+            this.addCQueue(Password.PasswordData());
+            this.pass = true;
+            this.passKey = passKey;
+            Password.setOrder(this.passKey);
+        } else {
+            this.pass = false;
+        }
         }
         //sort database according to selected options
         this.queue.insertionSort();
         //render with options
-        model.addAttribute("ctl", this);
+        model.addAttribute("this", this);
         return "mvc/dataops";
     }
+
+    /****** Console Methods *******/
 
     /*
      * Show key objects/properties of circle queue
@@ -190,26 +220,30 @@ public class DataOpsController {
         //queue
         DataOpsController trial = new DataOpsController();
 
-        //add different types of objects to the same opaque queue
+        //add different types of objects to the same queue
         trial.addCQueue(Animal.animalData());
         trial.addCQueue(Cupcakes.cupCakeData());
         trial.addCQueue(Alphabet.alphabetData());
+        trial.addCQueue(Password.PasswordData());
+
         //display queue objects in queue order
         ConsoleMethods.println("Add order (all database)");
         trial.printCQueue();
 
         //sort queue objects by specific element within the object and display in sort order
-        Animal.key = Animal.KeyType.name;
-        Cupcakes.key = Cupcakes.KeyType.frosting;
-        Alphabet.key = Alphabet.KeyType.letter;
+        Animal.setOrder(Animal.KeyType.name);
+        Cupcakes.setOrder(Cupcakes.KeyType.frosting);
+        Alphabet.setOrder(Alphabet.KeyType.letter);
+        Password.setOrder(Password.KeyType.str);
         trial.queue.insertionSort();
         ConsoleMethods.println("Sorted order (key only)");
         trial.printCQueue();
 
         //display queue objects, changing output but not sort
-        Animal.key = Animal.KeyType.title;
-        Cupcakes.key = Cupcakes.KeyType.title;
-        Alphabet.key = Alphabet.KeyType.title;
+        Animal.setOrder(Animal.KeyType.title);
+        Cupcakes.setOrder(Cupcakes.KeyType.title);
+        Alphabet.setOrder(Alphabet.KeyType.title);
+        Password.setOrder(Password.KeyType.title);
         ConsoleMethods.println("Retain sorted order (all database)");
         trial.printCQueue();
         trial.queue.insertionSort();
