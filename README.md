@@ -36,7 +36,7 @@
     <td> /5 </td>
   </tr>
  <tr>
-    <td>  </td>
+    <td> Bryant </td>
     <td> Link </td>
     <td> Link </td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-2:-Tech-Talk-5-Data-Ops"> Link </a></td>
@@ -61,25 +61,25 @@
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/commits?author=jm1021" target="_blank">Commits</a></td>
   </tr>
   <tr>
-    <td> Adi </td>
+    <td> Flora </td>
     <td><a href="https://github.com/jm1021" target="_blank">Profile</a></td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/issues?q=assignee%3Ajm1021" target="_blank">Issues</a></td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/commits?author=jm1021" target="_blank">Commits</a></td>
   </tr>
   <tr>
-    <td> Adi </td>
+    <td> Adrita </td>
     <td><a href="https://github.com/jm1021" target="_blank">Profile</a></td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/issues?q=assignee%3Ajm1021" target="_blank">Issues</a></td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/commits?author=jm1021" target="_blank">Commits</a></td>
   </tr>
   <tr>
-    <td> Adi </td>
+    <td> Rachel </td>
     <td><a href="https://github.com/jm1021" target="_blank">Profile</a></td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/issues?q=assignee%3Ajm1021" target="_blank">Issues</a></td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/commits?author=jm1021" target="_blank">Commits</a></td>
   </tr>
   <tr>
-    <td> Adi </td>
+    <td> Bryant </td>
     <td><a href="https://github.com/jm1021" target="_blank">Profile</a></td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/issues?q=assignee%3Ajm1021" target="_blank">Issues</a></td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/commits?author=jm1021" target="_blank">Commits</a></td>
