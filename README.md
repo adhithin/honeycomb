@@ -9,7 +9,7 @@
   </tr>
    <tr>
     <td> Adi </td>
-    <td> Link </td>
+     <td> <a href="https://github.com/adhithin/lab-kit/commits/master/README.md"> Link </a> </td>
      <td> <a href="https://github.com/adhithin/adi-personal"> Link </a> </td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-2:-Tech-Talk-5-Data-Ops"> Link </a></td>
     <td> /5 </td>
