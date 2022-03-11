@@ -20,7 +20,7 @@
     <td> Flora </td>
     <td> <a href="https://github.com/florayuan18/just-to-suffer/commits/main"> Link </a> </td>
     <td> <a href="https://github.com/florayuan18/just-to-suffer"> Link </a> </td>
-    <td><a href="https://github.com/florayuan18/just-to-suffer/wiki"> Link </a></td>
+    <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-2:-Tech-Talk-5-Data-Ops"> Link </a></td>
     <td> /5 </td>
   </tr>
 <tr>
