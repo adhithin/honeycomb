@@ -1,4 +1,6 @@
 # Week 0 TimeBox 
+
+[Check out our project idea](https://github.com/adhithin/lab-kit/wiki)
 <table>
   <tr>
     <th> Name </th>
