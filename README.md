@@ -39,8 +39,8 @@
   </tr>
  <tr>
     <td> Bryant </td>
-    <td> Link </td>
-    <td> Link </td>
+    <td><a href="https://github.com/HexaDrakon/why-am-i-here/commits/master">Link</a></td>
+    <td><a href="https://github.com/HexaDrakon/why-am-i-here">Link</a></td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-2:-Tech-Talk-5-Data-Ops"> Link </a></td>
     <td> /5 </td>
   </tr>
