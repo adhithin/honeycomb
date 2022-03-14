@@ -36,8 +36,9 @@
     <td> Rachel </td>
     <td> <a href="https://github.com/rachelklee/csa-datastructures/commits/main" > Link </td>
     <td> <a href="https://github.com/rachelklee/csa-datastructures"> Link </td>
-    <td><a href="https://github.com/rachelklee/csa-datastructures/wiki/Week-0"> Link </a></td>
-    <td> /3 </td>
+    <td> <a href="https://github.com/rachelklee/csa-datastructures/wiki/Week-0"> Link </a></td>
+    <td> <a href="https://github.com/rachelklee/csa-datastructures/issues/1"> Link </a></td>
+    <td> 2.75/3 </td>
   </tr>
  <tr>
     <td> Bryant </td>
