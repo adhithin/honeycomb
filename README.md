@@ -32,10 +32,10 @@
   </tr>
   <tr>
     <td> Rachel </td>
-    <td> Link </td>
-    <td> Link </td>
-    <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-2:-Tech-Talk-5-Data-Ops"> Link </a></td>
-    <td> /5 </td>
+    <td> <a href="https://github.com/rachelklee/csa-datastructures/commits/main" > Link </td>
+    <td> <a href="https://github.com/rachelklee/csa-datastructures"> Link </td>
+    <td><a href="https://github.com/rachelklee/csa-datastructures/wiki/Week-0"> Link </a></td>
+    <td> /3 </td>
   </tr>
  <tr>
     <td> Bryant </td>
