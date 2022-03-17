@@ -24,7 +24,7 @@
     <td> <a href="https://github.com/florayuan18/just-to-suffer"> Link </a> </td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-2:-Tech-Talk-5-Data-Ops"> Link </a></td>
     <td> Ticket </td>
-    <td> /5 </td>
+    <td> 4.5/5 </td>
   </tr>
 <tr>
     <td> Adrita </td>
