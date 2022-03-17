@@ -4,7 +4,7 @@
   <tr>
     <th> Name </th>
     <th> Commits </th>
-    <th> Requirement </th>
+    <th> Initial Requirements </th>
     <th> Ticket </th> 
     <th> Score </th>
   </tr>
