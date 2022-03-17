@@ -80,7 +80,7 @@
     <td> <a href="https://github.com/adritac-tech/datastructures/commits/main"> Link </td> </td>
     <td> <a href="https://github.com/adritac-tech/datastructures"> Link </td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-2:-Tech-Talk-5-Data-Ops"> Link </a></td>
-    <td> Ticket </td>
+    <td> <a href="https://github.com/adritac-tech/datastructures/issues/1"> Ticket </td>
     <td> /5 </td>
   </tr>
   <tr>
