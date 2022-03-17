@@ -65,7 +65,7 @@
      <td> <a href="https://github.com/adhithin/adi-personal"> Link </a> </td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-2:-Tech-Talk-5-Data-Ops"> Link </a></td>
      <td> <a href="https://github.com/adhithin/adi-personal/issues/1"> Ticket </a> </td>
-    <td> /5 </td>
+    <td> 3.5/5 </td>
   </tr>
   <tr>
     <td> Flora </td>
@@ -73,7 +73,7 @@
     <td> <a href="https://github.com/florayuan18/just-to-suffer"> Link </a> </td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-2:-Tech-Talk-5-Data-Ops"> Link </a></td>
     <td> Ticket </td>
-    <td> /5 </td>
+    <td> 4.5/5 </td>
   </tr>
 <tr>
     <td> Adrita </td>
@@ -81,7 +81,7 @@
     <td> <a href="https://github.com/adritac-tech/datastructures"> Link </td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-2:-Tech-Talk-5-Data-Ops"> Link </a></td>
     <td> <a href="https://github.com/adritac-tech/datastructures/issues/1"> Ticket </td>
-    <td> /5 </td>
+    <td> 3.5/5 </td>
   </tr>
   <tr>
     <td> Rachel </td>
@@ -89,7 +89,7 @@
     <td> <a href="https://github.com/rachelklee/csa-datastructures"> Link </td>
     <td> <a href="https://github.com/rachelklee/csa-datastructures/wiki/Week-0"> Link </a></td>
     <td> <a href="https://github.com/rachelklee/csa-datastructures/issues/1"> Link </a></td>
-    <td> 2.75/3 </td>
+    <td> 3.75/5 </td>
   </tr>
  <tr>
     <td> Bryant </td>
@@ -97,7 +97,7 @@
     <td><a href="https://github.com/HexaDrakon/why-am-i-here">Link</a></td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-2:-Tech-Talk-5-Data-Ops"> Link </a></td>
     <td> Ticket </td>
-    <td> /5 </td>
+    <td> 5/5 </td>
   </tr>
 </table>
 
