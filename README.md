@@ -11,35 +11,35 @@
    <tr>
     <td> Adi </td>
      <td> <a href="https://github.com/adhithin/lab-kit/commits/master/README.md"> Link </a> </td>
-     <td> Set up the DataBase for different scientific lab procedures. </td>
+     <td> <a href="https://github.com/adhithin/lab-kit/issues/6" > Set up the DataBase for different scientific lab procedures.</a> </td>
      <td> <a href="https://github.com/adhithin/lab-kit/projects/1#card-79281654"> Ticket </a> </td>
     <td> /5 </td>
   </tr>
   <tr>
     <td> Flora </td>
      <td> <a href="https://github.com/adhithin/lab-kit/commits/master/README.md"> Link </a> </td>
-     <td> Set up a Google Search Bar within the website to find science papers. Helps track other experiments. </td>
+     <td> <a href="https://github.com/adhithin/lab-kit/issues/7" > Set up a Google Search Bar within the website to find science papers. Helps track other experiments.</a> </td>
      <td> <a href="https://github.com/adhithin/lab-kit/projects/1#card-79281668"> Ticket </a> </td>
     <td> /5 </td>
   </tr>
 <tr>
      <td> Adrita </td>
      <td> <a href="https://github.com/adhithin/lab-kit/commits/master/README.md"> Link </a> </td>
-     <td>  Create LogIn Page for Scientists. </td>
+     <td> <a href="https://github.com/adhithin/lab-kit/issues/9" > Create LogIn Page for Scientists. </a>  </td>
      <td> <a href="https://github.com/adhithin/lab-kit/projects/1#card-79281715"> Ticket </a> </td>
     <td> /5 </td>
   </tr>
   <tr>
      <td> Rachel </td>
      <td> <a href="https://github.com/adhithin/lab-kit/commits/master/README.md"> Link </a> </td>
-     <td> Add in web design and set up navigation, headers + footers for site. </td>
+     <td> <a href="https://github.com/adhithin/lab-kit/issues/8" > Add in web design and set up navigation, headers + footers for site. </a>  </td>
      <td> <a href="https://github.com/adhithin/lab-kit/projects/1#card-79281679"> Ticket </a> </td>
     <td> /5 </td>
   </tr>
  <tr>
      <td> Bryant </td>
      <td> <a href="https://github.com/adhithin/lab-kit/commits/master/README.md"> Link </a> </td>
-     <td>Set up Deployment for Website. Make sure to set up deployment schedule. </td>
+     <td> <a href="https://github.com/adhithin/lab-kit/issues/10" > Set up Deployment for Website. Make sure to set up deployment schedule. </a> </td>
      <td> <a href="https://github.com/adhithin/lab-kit/projects/1#card-79281725"> Ticket </a> </td>
     <td> /5 </td>
   </tr>
