@@ -1,10 +1,20 @@
+# Overall Requirements 
+
+- [ ] A login page for scientists, like a social media page 
+- [ ] Creating a database of procedures for different types of experiments 
+- [ ] Creating a cleaner web design 
+- [ ] Allow chat feature for scientists to talk to each other 
+- [ ] Allow for talking and speeches and lectures platform 
+- [ ] Google search 
+- [ ] PubMed Search 
+
 # Week 1 
 
 <table>
   <tr>
     <th> Name </th>
     <th> Commits </th>
-    <th> Requirement </th>
+    <th> Initial Requirements </th>
     <th> Ticket </th> 
     <th> Score </th>
   </tr>
