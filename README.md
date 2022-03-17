@@ -72,7 +72,7 @@
     <td> <a href="https://github.com/florayuan18/just-to-suffer/commits/main"> Link </a> </td>
     <td> <a href="https://github.com/florayuan18/just-to-suffer"> Link </a> </td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-2:-Tech-Talk-5-Data-Ops"> Link </a></td>
-    <td> <a href="https://github.com/adritac-tech/datastructures/issues/1"> Ticket </td>
+    <td> <a href="https://github.com/florayuan18/just-to-suffer/issues/1"> Ticket </td>
     <td> 4.5/5 </td>
   </tr>
 <tr>
@@ -80,7 +80,7 @@
     <td> <a href="https://github.com/adritac-tech/datastructures/commits/main"> Link </td> </td>
     <td> <a href="https://github.com/adritac-tech/datastructures"> Link </td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-2:-Tech-Talk-5-Data-Ops"> Link </a></td>
-    <td> <a href="https://github.com/florayuan18/just-to-suffer/issues/1"> Ticket </td>
+    <td> <a href="https://github.com/adritac-tech/datastructures/issues/1"> Ticket </td>
     <td> 3.5/5 </td>
   </tr>
   <tr>
