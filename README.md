@@ -1,3 +1,52 @@
+# Week 1 
+
+<table>
+  <tr>
+    <th> Name </th>
+    <th> Commits </th>
+    <th> Requirement </th>
+    <th> Ticket </th> 
+    <th> Score </th>
+  </tr>
+   <tr>
+    <td> Adi </td>
+     <td> <a href="https://github.com/adhithin/lab-kit/commits/master/README.md"> Link </a> </td>
+     <td> Set up the DataBase for different scientific lab procedures. </td>
+     <td> <a href="https://github.com/adhithin/adi-personal/issues/1"> Ticket </a> </td>
+    <td> /5 </td>
+  </tr>
+  <tr>
+    <td> Flora </td>
+     <td> <a href="https://github.com/adhithin/lab-kit/commits/master/README.md"> Link </a> </td>
+     <td> Set up a Google Search Bar within the website to find science papers. Helps track other experiments. </td>
+     <td> <a href="https://github.com/adhithin/adi-personal/issues/1"> Ticket </a> </td>
+    <td> /5 </td>
+  </tr>
+<tr>
+     <td> Adrita </td>
+     <td> <a href="https://github.com/adhithin/lab-kit/commits/master/README.md"> Link </a> </td>
+     <td>  Create LogIn Page for Scientists. </td>
+     <td> <a href="https://github.com/adhithin/adi-personal/issues/1"> Ticket </a> </td>
+    <td> /5 </td>
+  </tr>
+  <tr>
+     <td> Rachel </td>
+     <td> <a href="https://github.com/adhithin/lab-kit/commits/master/README.md"> Link </a> </td>
+     <td> Add in web design and set up navigation, headers + footers for site. </td>
+     <td> <a href="https://github.com/adhithin/adi-personal/issues/1"> Ticket </a> </td>
+    <td> /5 </td>
+  </tr>
+ <tr>
+     <td> Bryant </td>
+     <td> <a href="https://github.com/adhithin/lab-kit/commits/master/README.md"> Link </a> </td>
+     <td>Set up Deployment for Website. Make sure to set up deployment schedule. </td>
+     <td> <a href="https://github.com/adhithin/adi-personal/issues/1"> Ticket </a> </td>
+    <td> /5 </td>
+  </tr>
+</table>
+
+
+
 # Week 0 TimeBox 
 
 [Check out our project idea](https://github.com/adhithin/lab-kit/wiki)
@@ -24,7 +73,7 @@
     <td> <a href="https://github.com/florayuan18/just-to-suffer"> Link </a> </td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-2:-Tech-Talk-5-Data-Ops"> Link </a></td>
     <td> Ticket </td>
-    <td> 4.5/5 </td>
+    <td> /5 </td>
   </tr>
 <tr>
     <td> Adrita </td>
