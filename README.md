@@ -137,7 +137,7 @@
     <td> Rachel </td>
     <td> Web Designer </td>
     <td><a href="https://github.com/rachelklee" target="_blank">Profile</a></td>
-    <td><a href="https://github.com/adhithin/lab-kit/issues" target="_blank">Issues</a></td>
+    <td><a href="https://github.com/adhithin/lab-kit/issues?q=is%3Aissue+is%3Aopen+label%3ARachel" target="_blank">Issues</a></td>
     <td><a href="https://github.com/adhithin/lab-kit/commits?author=rachelklee" target="_blank">Commits</a></td>
   </tr>
   <tr>
