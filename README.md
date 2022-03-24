@@ -7,6 +7,7 @@
 - [ ] Allow for talking and speeches and lectures platform 
 - [ ] Google search 
 - [ ] PubMed Search 
+- [ ] Test
 
 # Week 1 & 2 
 
