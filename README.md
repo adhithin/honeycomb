@@ -6,8 +6,7 @@
 - [ ] Allow chat feature for scientists to talk to each other 
 - [ ] Allow for talking and speeches and lectures platform 
 - [ ] Google search 
-- [ ] PubMed Search 
-- [ ] Test
+- [ ] PubMed Search
 
 # Week 1 & 2 
 
