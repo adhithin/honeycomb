@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:layout="http://www.w3.org/1999/xhtml " xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
 
-<head>
+
+<head><div layout:fragment="metadata" th:remove="tag">
     <!--
      - Roxy: Bootstrap template by GettTemplates.com
      - https://gettemplates.co/roxy
     -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Roxy by GetTemplates.co</title>
+    <title>About LABKIT</title>
     <meta name="description" content="Roxy">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -29,11 +31,11 @@
 
     <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-
+</div>
 </head>
 <body data-spy="scroll" data-target="#navbar" class="static-layout">
-	<div id="side-nav" class="sidenav">
-	<a href="javascript:void(0)" id="side-nav-close">&times;</a>
+	<div id="side-nav2" class="sidenav">
+	<a href="javascript:void(0)" id="side-nav-close2">&times;</a>
 	
 	<div class="sidenav-content">
 		<p>
@@ -44,15 +46,15 @@
 		</p>
 		<p>info@yourdomain.com</p>
 	</div>
-</div>	<div id="side-search" class="sidenav">
-	<a href="javascript:void(0)" id="side-search-close">&times;</a>
+</div>	<div id="side-search2" class="sidenav">
+	<a href="javascript:void(0)" id="side-search-close2">&times;</a>
 	<div class="sidenav-content">
 		<form action="">
 
 			<div class="input-group md-form form-sm form-2 pl-0">
 			  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
 			  <div class="input-group-append">
-			    <button class="input-group-text red lighten-3" id="basic-text1">
+			    <button class="input-group-text red lighten-3" id="basic-text2">
 			    	<span class="lnr lnr-magnifier"></span>
 			    </button>
 			  </div>
@@ -127,7 +129,7 @@
 		</form>
 	</div>
 	
-</div>	<div class="jumbotron jumbotron-single d-flex align-items-center" style="background-image: url(img/bg.jpg)">
+</div>	<div class="jumbotron jumbotron-single d-flex align-items-center" style="background-image: url(/static/img/photo-6.jpg)">
   <div class="container text-center">
     <h1 class="display-2 mb-4">About</h1>
   </div>
@@ -135,29 +137,29 @@
     <div class="container">
         <div class="section-content">
             <div class="title-wrap" data-aos="fade-up">
-                <h2 class="section-title">The easiest way <br>to build<b> websites online</b></h2>
-                <p class="section-sub-title">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a <br> pharetra augue. Donec id elit non mi porta gravida at eget metus.</p>
+                <h2 class="section-title">Learn more<br>about<b> project LABKIT</b></h2>
+                <p class="section-sub-title">here is some <br> information about our project.</p>
             </div>
             
             <div class="row text-center">
                 <div class="col-md-4 col-sm-6" data-aos="fade-up">
-                    <img class="rounded-circle" src="img/icons/animat-checkmark.gif" alt="Generic placeholder image" width="140" height="140">
-                    <h5 class="mb-4">Simple and Clean</h5>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <img class="rounded-circle" src="/static/img/icons/animat-checkmark.gif" alt="Generic placeholder image" width="140" height="140">
+                    <h5 class="mb-4">Search Up Terms</h5>
+                    <p>about</p>
                     <p><a class="btn btn-link" href="#" role="button">View details</a></p>
                 </div>
                 <!-- /.col-md-4 col-sm-6  -->
                 <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="200">
-                    <img class="rounded-circle" src="img/icons/animat-customize.gif" alt="Generic placeholder image" width="140" height="140">
-                    <h5 class="mb-4">Easy to Customize</h5>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis.</p>
+                    <img class="rounded-circle" src="/static/img/icons/animat-customize.gif" alt="Generic placeholder image" width="140" height="140">
+                    <h5 class="mb-4">Find Lab Procedures</h5>
+                    <p>about</p>
                     <p><a class="btn btn-link" href="#" role="button">View details</a></p>
                 </div>
                 <!-- /.col-md-4 col-sm-6  -->
                 <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="400">
-                    <img class="rounded-circle" src="img/icons/animat-responsive.gif" alt="Generic placeholder image" width="140" height="140">
-                    <h5 class="mb-4">Fully Responsive</h5>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. </p>
+                    <img class="rounded-circle" src="/static/img/icons/animat-responsive.gif" alt="Generic placeholder image" width="140" height="140">
+                    <h5 class="mb-4">Learn Safety Guidelines</h5>
+                    <p>about</p>
                     <p><a class="btn btn-link" href="#" role="button">View details</a></p>
                 </div>
                 <!-- /.col-md-4 col-sm-6  -->
@@ -244,7 +246,7 @@
         </div>
     </div>
 </section>	<!-- Features Section-->
-<section id="cta" class="bg-fixed overlay" style="background-image: url(img/bg.jpg);">
+<section id="cta" class="bg-fixed overlay" style="background-image: url(/static/img/photo-6.jpg);">
     <div class="container">
         <div class="section-content" data-aos="fade-up">
             <div class="row">
